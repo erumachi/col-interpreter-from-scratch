@@ -1,0 +1,34 @@
+[package]
+name = "col-interpreter-from-scratch"
+version = "0.1.0"
+authors = ["marcello"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "part_0"
+path = "src/part_0.rs"
+
+[[bin]]
+name = "part_1"
+path = "src/part_1.rs"
+
+[[bin]]
+name = "part_2"
+path = "src/part_2.rs"
+
+[[bin]]
+name = "part_3"
+path = "src/part_3.rs"
+
+[[bin]]
+name = "part_4"
+path = "src/part_4.rs"
+
+[[bin]]
+name = "part_5"
+path = "src/part_5.rs"
