@@ -1,0 +1,13 @@
+# interpreter-from-scratch
+
+This repo contains the code for this challenge: https://regyxxer.xyz/interpreter-from-scratch/
+
+## Build and run
+
+You can build this as any other Rust repository running `cargo build` at the root of the repo.
+This will generate a bunch of executables called `part_N`, one for each part.
+You can run them manually with the arguments they should have or you can use:
+
+`cargo run --bin part_N -- args_of_the_binary`
+
+to run the binary called `part_N` with arguments `args_of_the_binary`.
