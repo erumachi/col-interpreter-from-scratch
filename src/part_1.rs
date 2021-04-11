@@ -63,7 +63,7 @@ fn interpret_program(memory: &mut Option<i64>, program: &str) -> Result<(), Stri
             'd' => {
                 // Decrement the value in memory by 1.
                 match memory {
-                    Some(x) if *x > 1 => *x -= 1,
+                    Some(x) if *x > 0 => *x -= 1,
                     Some(_x) => return Err(String::from("cannot decrement: value should stay between 0 and 1000")),
                     None => return Err(String::from("cannot decrement an uninitialized value")),
                 }
@@ -71,7 +71,7 @@ fn interpret_program(memory: &mut Option<i64>, program: &str) -> Result<(), Stri
             'i' => {
                 // Increment the value in memory by 1.
                 match memory {
-                    Some(x) if *x < 999 => *x += 1,
+                    Some(x) if *x < 1000 => *x += 1,
                     Some(_x) => return Err(String::from("cannot increment: value should stay between 0 and 1000")),
                     None => return Err(String::from("cannot increment an uninitialized value")),
                 }
