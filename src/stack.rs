@@ -37,4 +37,8 @@ impl<T> Stack<T> {
     pub fn clear(&mut self) {
         self.stack.clear();
     }
+
+    pub fn length(&self) -> usize {
+        self.stack.len()
+    }
 }

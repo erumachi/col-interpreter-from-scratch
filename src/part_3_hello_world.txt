@@ -1,0 +1,17 @@
+// “Hello World!” program
+avviii                      // Push '\r'
+avvii                       // Push '\n'
+avvvvvviii                  // Push '!'
+avvvvvvvvvvvvvvvvvvvv       // Push 'd'
+avvvvvvvvvvvvvvvvvvvvviii   // Push 'l'
+avvvvvvvvvvvvvvvvvvvvvvvd   // Push 'r'
+avvvvvvvvvvvvvvvvvvvvvvi    // Push 'o'
+avvvvvvvvvvvvvvvvvii        // Push 'W'
+avvvvvvii                   // Push ' '
+avvvvvvvvvvvvvvvvvvvvvvi    // Push 'o'
+avvvvvvvvvvvvvvvvvvvvviii   // Push 'l'
+avvvvvvvvvvvvvvvvvvvvviii   // Push 'l'
+avvvvvvvvvvvvvvvvvvvvi      // Push 'e'
+avvvvvvvvvvvvvvii           // Push 'H'
+fbfbfbfbfbfbfbfbfbfbfbfbfbf // print the whole thing
+
