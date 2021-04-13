@@ -19,7 +19,7 @@ impl<T> Stack<T> {
             return Err(String::from("push error: max size reached"));
         }
         self.stack.push(elem);
-        return Ok(());
+        Ok(())
     }
 
     pub fn pop(&mut self) -> Option<T> {
@@ -40,5 +40,24 @@ impl<T> Stack<T> {
 
     pub fn length(&self) -> usize {
         self.stack.len()
+    }
+
+    pub fn swap(&mut self, a: usize, b: usize) -> Result<(), String> {
+        if a >= self.stack.len() {
+            return Err(String::from("swap error: first index out of range"));
+        }
+        if b >= self.stack.len() {
+            return Err(String::from("swap error: second index out of range"));
+        }
+        self.stack.swap(a, b);
+        Ok(())
+    }
+
+    pub fn remove(&mut self, idx: usize) -> Result<(), String> {
+        if idx >= self.stack.len() {
+            return Err(String::from("remove error: index out of range"));
+        }
+        self.stack.remove(idx);
+        Ok(())
     }
 }
