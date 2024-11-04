@@ -2,6 +2,8 @@
 
 This repo contains the code for this challenge: https://regyxxer.xyz/interpreter-from-scratch/
 
+The link is dead, but the language we implemented is StupidStackLanguage: https://esolangs.org/wiki/StupidStackLanguage
+
 ## Build and run
 
 You can build this as any other Rust repository running `cargo build` at the root of the repo.
